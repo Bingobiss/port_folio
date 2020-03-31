@@ -1,0 +1,74 @@
+.me {
+    color: #4b4b4b;
+    text-shadow: 0px 3px 0px #020202,
+                 0px 13px 10px rgba(0,0,0,0.5),
+                 0px 23px 2px rgba(0,0,0,0.35),
+                 0px 30px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    max-width: 700px;
+    margin: 0 auto;
+    transition: all 0.3s ease 0s;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+body, html {
+  background-image: url("mainbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+div.myName {
+    padding-top: 275px;
+}
+
+li, a.navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1em;
+    margin: 0 5px;
+}
+
+a.navbar-brand:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbut {
+    border: none;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    }
+
+.navbut:hover {
+    color: #4b4b4b !important;
+    letter-spacing: 3px;
+    background: white;
+    border: 1px solid white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px #e2c313;
+    text-shadow: 0 0 15px #e2c313;
+    transition: all 0.3s ease 0s;
+    padding: 5px 5px;
+    }
+
+.me:hover {
+    text-shadow: 0 0 15px #e2c313;
+    color: white;
+    transition: all 0.3s ease 0s;
+}    
+
+@media screen and (max-width: 800px) {
+    h1 {
+      font-size: 2.5em;
+    }
+  }
